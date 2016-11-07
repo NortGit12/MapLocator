@@ -12,7 +12,7 @@
         <!--Map Places-->
         <scene sceneID="tdG-P5-bj7">
             <objects>
-                <viewController id="BwQ-o3-g1z" sceneMemberID="viewController">
+                <viewController id="BwQ-o3-g1z" customClass="MapPlacesViewController" customModule="MapLocator" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="rdt-W5-sbW"/>
                         <viewControllerLayoutGuide type="bottom" id="7jV-vu-ghz"/>
@@ -34,8 +34,15 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Map Places" id="dYm-mR-qfb">
-                        <barButtonItem key="rightBarButtonItem" systemItem="search" id="WOp-eT-c8J"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="search" id="WOp-eT-c8J">
+                            <connections>
+                                <action selector="searchButtonTapped:" destination="BwQ-o3-g1z" id="cIl-0a-GH4"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="mapView" destination="b4r-Hk-ska" id="Ef0-Xq-ZBL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h99-0q-lLr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

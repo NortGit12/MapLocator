@@ -11,6 +11,7 @@
 		1F336CC71DD0EE9B00E57150 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F336CC51DD0EE9B00E57150 /* Main.storyboard */; };
 		1F336CC91DD0EE9B00E57150 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F336CC81DD0EE9B00E57150 /* Assets.xcassets */; };
 		1F336CCC1DD0EE9B00E57150 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F336CCA1DD0EE9B00E57150 /* LaunchScreen.storyboard */; };
+		1F336CD61DD1233000E57150 /* MapPlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F336CD51DD1232F00E57150 /* MapPlacesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		1F336CC81DD0EE9B00E57150 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F336CCB1DD0EE9B00E57150 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F336CCD1DD0EE9B00E57150 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F336CD51DD1232F00E57150 /* MapPlacesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapPlacesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				1F336CC11DD0EE9B00E57150 /* AppDelegate.swift */,
+				1F336CD71DD1233500E57150 /* ViewController */,
 				1F336CD31DD121BE00E57150 /* Resources */,
 			);
 			path = MapLocator;
@@ -75,6 +78,14 @@
 				1F336CC51DD0EE9B00E57150 /* Main.storyboard */,
 			);
 			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		1F336CD71DD1233500E57150 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1F336CD51DD1232F00E57150 /* MapPlacesViewController.swift */,
+			);
+			name = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F336CC21DD0EE9B00E57150 /* AppDelegate.swift in Sources */,
+				1F336CD61DD1233000E57150 /* MapPlacesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +326,7 @@
 				1F336CD21DD0EE9B00E57150 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
